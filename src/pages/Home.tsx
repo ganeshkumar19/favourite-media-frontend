@@ -20,7 +20,6 @@ const Home = () => {
     fetchNextPage,
     hasNextPage,
     isFetchingNextPage,
-    refetch,
   } = useInfiniteQuery({
     queryKey: ["favorites"],
     queryFn: fetchFavorites,
